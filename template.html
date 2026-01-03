@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <!--- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--- Boxicons CSS -->
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <nav class="sidebar">
+
+        <header>
+
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.png" alt="logo">
+                </span>
+            </div>
+
+            <div class="header-text">
+                <span class="name">Frank Shen</span>
+            </div>
+
+
+            <i class='bx bx-chevron-right toggle'></i>
+
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <a href="#">
+                        <i class='bx  bx-search-alt icon'></i> 
+                        <input type="search" placeholder="Search...">
+                    </a>
+                </li>
+
+
+                <ul class="menu-links">
+
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx  bx-robot icon'></i>
+                            <span class="text nav-text">AI solver</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx  bx-book icon'></i> 
+                            <span class="text nav-text">Notebook</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="bottom-content">
+
+                <li class="">
+                    <a href="#">
+                        <i class='bx  bx-arrow-out-left-square-half icon'></i> 
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class="bx bx-moon icon moon"></i>
+                        <i class="bx bx-sun icon sun"></i>
+                    </div>
+
+                    <span class="mode-text text">Dark Mode</span>
+        
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+
+    </nav>
+    
+</body>
+</html>
